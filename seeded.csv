@@ -1,0 +1,6 @@
+Handle,Title,Body (HTML),Vendor,Option1 Name,Option1 Value,Option2 Name,Option2 Value,SKU,Qty,Price,Image URL,Published,Tags
+acme-tee,Acme Tee,<p>Soft tee</p>,Acme,Size,M,,,TEE-M,10.0,"$1,299.00",https://cdn.example.com/tee-m.jpg,yes," summer , sale "
+acme-tee,,,,Size,L,,,TEE-L,5,24.99,https://cdn.example.com/tee-l.jpg,TRUE,
+acme-tee,,,,Size,M,,,TEE-M2,3,24.99,/tee-m2.jpg,,
+acme-tee,,,,Size,,,,TEE-X,2,abc,,
+mug-001,Enamel Mug,<p>Mug</p>,Acme,,,,,MUG-1,7,12.50,https://cdn.example.com/mug.jpg,no,
