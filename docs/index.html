@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShopifyCsvFix — Product CSV Audit, Fix & Re-Check | Local & Private</title>
+<meta name="description" content="ShopifyCsvFix audits your product CSV the way Shopify's importer sees it, repairs header aliases, price and quantity formats, booleans and tags, then re-checks the file. 100% local.">
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;color:#1c2733;line-height:1.6;background:#fbfcfe}
+  .wrap{max-width:820px;margin:0 auto;padding:32px 20px 64px}
+  h1{font-size:2rem;line-height:1.25;margin:.2em 0}
+  h2{margin-top:2em;font-size:1.25rem}
+  .sub{font-size:1.1rem;color:#43536a}
+  .cta{display:inline-block;background:#0b6e4f;color:#fff;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;margin:16px 0}
+  .card{background:#fff;border:1px solid #e3e9f0;border-radius:10px;padding:18px 20px;margin:14px 0}
+  .num{font-weight:700;color:#0b6e4f}
+  footer{color:#7a8798;font-size:.85rem;margin-top:48px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p><strong>ShopifyCsvFix</strong></p>
+  <h1>Shopify's importer won't argue.<br>It just ignores your columns.</h1>
+  <p class="sub">Misspelled headers are silently skipped and bad values reject the file — discovered one failed import at a time. ShopifyCsvFix audits the CSV the way the importer sees it, repairs the mechanical errors, then <em>re-checks the repaired file</em>.</p>
+  <a class="cta" href="https://binbinster.gumroad.com/l/shopifycsvfix-product-csv-repair">Get ShopifyCsvFix — $29 one-time</a>
+  <h2>What it fixes on its own</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Column aliases</strong> renamed to the exact headers Shopify expects (SKU → Variant SKU, Qty → Variant Inventory Qty, Image URL → Image Src)</li>
+      <li><strong>Prices</strong> cleaned to plain numbers ($1,299.00 → 1299.00)</li>
+      <li><strong>Quantities</strong> made integers (10.0 → 10); <strong>booleans</strong> normalized (yes/TRUE → true)</li>
+      <li><strong>Tag spacing</strong> and relative image URLs (when your file's other images establish the domain)</li>
+    </ul>
+  </div>
+  <h2>Verified, not vibes</h2>
+  <div class="card">
+    <p>Seeded 5-row import file with 14 planted problems: <span class="num">11 repaired</span> — 4 of them header renames the importer would have silently ignored — and the re-check confirmed the 3 real blocking errors with 0 new issues.</p>
+  </div>
+  <a class="cta" href="https://binbinster.gumroad.com/l/shopifycsvfix-product-csv-repair">Get ShopifyCsvFix — $29 one-time</a>
+  <footer>
+    <p>ShopifyCsvFix covers the CSV file itself. Your store's existing products, locations and inventory settings are not visible from the file.</p>
+  </footer>
+</div>
+</body>
+</html>
